@@ -2,7 +2,7 @@ import pandas as pd
 
 def es_primo(n):
     for i in range(2, n):
-      if n % i == 0:
+      if n % i == 1:
         return False
         
     return True 
