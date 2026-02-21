@@ -49,7 +49,7 @@ jobs:
     - name: Test with pytest
       run: |
         source env/bin/activate
-        pytes
+        pytest
     - name: deploy or update lambda
       run: |
         pwd
