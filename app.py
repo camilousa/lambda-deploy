@@ -10,7 +10,7 @@ def es_primo(n):
 
 def handler(event, context):
     print("hello lambda from zappa")
-    
+    x = es_primo(5)
     return {}
     
     
